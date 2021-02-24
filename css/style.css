@@ -1,0 +1,84 @@
+h1 {
+    color: grey;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+}
+
+h3 {
+    color: grey;
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: Verdana, sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.left-side {
+    position: relative;
+    display: inline-block;
+}
+
+.right-side {
+    float: right;
+}
+
+li:nth-of-type(odd) {
+    background-color: white;
+    padding: 3px 0px;
+}
+
+li:nth-of-type(even) {
+    padding: 3px 0px;
+}
+
+li:last-of-type {
+    border-bottom: 1px solid grey;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(161, 156, 156);
+}
+
+a {
+    padding: 3px 10px;
+    text-decoration: none;
+    background-color: red;
+    color: blue;
+}
+
+a:last-child {
+    padding-bottom: 4px;
+}
+
+a:hover {
+    background-color: salmon;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.yellow {
+    padding: 40px 30px;
+    margin-top: 20px;
+    height: 200px;
+    background-color: yellow;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+    min-width: 100px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: rgb(153, 145, 145) 1px solid;
+}
